@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SQLITE_Medical_MAnagement</string>
+
+    <string-array name="Products">
+        <item>Acetaminophen</item>
+        <item>Diclofenac</item>
+        <item>Juvisync</item>
+        <item>Verapamil</item>
+        <item>Kevzara</item>
+    </string-array>
+    <string-array name="Prices">
+        <item>100</item>
+        <item>129</item>
+        <item>300</item>
+        <item>75</item>
+        <item>200</item>
+    </string-array>
+
+</resources>
