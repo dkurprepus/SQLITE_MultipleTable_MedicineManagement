@@ -63,6 +63,10 @@ public class CreateOrderActivity extends AppCompatActivity implements View.OnCli
             edtCustName.setText(CustName);
             edtBillNo.setKeyListener(null);
             edtCustName.setKeyListener(null);
+            edtBillNo.setTextColor(Color.parseColor("#FFAFAFAF"));
+            edtCustName.setTextColor(Color.parseColor("#FFAFAFAF"));
+
+
             adapter = new BillAdapter(CreateOrderActivity.this, billList, new BillAdapter.MyAdapterListener() {
                 @Override
                 public void EditClick(View v, int position) {
